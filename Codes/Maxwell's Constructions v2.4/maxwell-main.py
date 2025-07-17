@@ -36,7 +36,7 @@ if __name__ == "__main__":
     #                      PLAYGROUND
     # ****************************************************
 
-    if playground_mode == True:
+    if playground_mode == False:
 
         delta, mu_tilde, x = 7e-2, 1e-3, 0.0
 
@@ -44,7 +44,7 @@ if __name__ == "__main__":
  
         #plotting.plot_Free_Energy_vs_x(delta=delta,mu_tilde=mu_tilde,N_modes=N_modes) 
  
-        plotting.mu_vs_n_with_Maxwells_Constructions(delta, N_modes)
+        #plotting.mu_vs_n_with_Maxwells_Constructions(delta, N_modes)
 
         # Instability lines of homogeneous and dimer
         #delta_values = fun.assing_delta_list(delta_min, delta_max, delta_step)
