@@ -207,7 +207,7 @@ def make_phase_diagram(DATA):
     plt.xlabel('n (electron density)')
     plt.ylabel('Delta')
     plt.legend()
-    plt.xlim(0.5, 0.6)
+    plt.xlim(0.5, 1.0)
     plt.ylim(0.0)
     #plt.ylim(0.0, 2.0)
 
