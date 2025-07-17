@@ -30,7 +30,7 @@ def run_maxwell_construction(delta):
 
 if __name__ == "__main__":
 
-    playground_mode = True
+    playground_mode = False
 
     # ****************************************************
     #                      PLAYGROUND
